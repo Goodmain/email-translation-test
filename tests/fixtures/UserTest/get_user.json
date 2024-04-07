@@ -1,0 +1,28 @@
+{
+    "id": 1,
+    "name": "Mr Admin",
+    "email": "admin@example.com",
+    "role_id": 1,
+    "role": {
+        "id": 1,
+        "name": "administrator"
+    },
+    "media": [
+        {
+            "id": 1,
+            "link": "http:\/\/localhost\/test.jpg",
+            "name": "Product main photo",
+            "is_public": true,
+            "owner_id": 1,
+            "meta": []
+        },
+        {
+            "id": 2,
+            "link": "http:\/\/localhost\/test1.jpg",
+            "name": "Category Photo photo",
+            "is_public": false,
+            "owner_id": 1,
+            "meta": []
+        }
+    ]
+}
